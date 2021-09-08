@@ -67,11 +67,11 @@ const profileData = {
         {
             graph: 'false',
             category: 'Frameworks / Libraries',
-            topics: ['Spring', 'StringBoot', 'Angular', 'Vaadin','ChartJS']
+            topics: ['Spring', 'SpringBoot', 'Angular', 'Vaadin','ChartJS','Lombok']
         },
         {
-            graph: 'false',
-            category: 'Others',
+            graph: 'true',
+            category: 'Env',
             topics: ['Linux','Jenkins','Git','GitHub','ArchLinux','Debian','SQL','Admin/Install PC/serveur', 'Bash scripting', 'Admin DNS', 'IntelliJ']
         }
     ],
