@@ -118,7 +118,7 @@ const profileData = {
                     details: [
                         `Etude, développement, maintenance des logiciels de vacations, paie et du module de gestion des droits`,
                             `Installation & mise à jour des serveurs MS SQL ,Apache tomcat et JRE des clients (SDIS)`,
-                        `Support technique et fonctionnel`
+                        `Support technique et fonctionnel`,
                        `<strong>Env. Tech.</strong>`,
                         `&nbspJava, C++, Spring, Hibernate, Resteasy, MS SQL, MySQL, Tomcat, LDAP, Json, Eclipse, Borland C++ 6`,
                     ]
