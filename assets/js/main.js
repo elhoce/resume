@@ -81,48 +81,48 @@ setEducation = education => {
   });
 };
 
-setProjects = projects => {
-  let ul = document.querySelector('#projectList');
-  projects.forEach(project => {
-    let li = document.createElement('li');
+// setProjects = projects => {
+//   let ul = document.querySelector('#projectList');
+//   projects.forEach(project => {
+//     let li = document.createElement('li');
 
-    let projectHeader = document.createElement('div');
-    projectHeader.className = 'project-header';
+//     let projectHeader = document.createElement('div');
+//     projectHeader.className = 'project-header';
 
-    let projectTitle = document.createElement('span');
-    projectTitle.className = 'project-title';
-    projectTitle.innerHTML = project.title;
-    projectHeader.appendChild(projectTitle);
+//     let projectTitle = document.createElement('span');
+//     projectTitle.className = 'project-title';
+//     projectTitle.innerHTML = project.title;
+//     projectHeader.appendChild(projectTitle);
 
-    let projectDuration = document.createElement('span');
-    projectDuration.className = 'project-duration';
-    projectDuration.innerHTML = project.duration;
-    projectHeader.appendChild(projectDuration);
+//     let projectDuration = document.createElement('span');
+//     projectDuration.className = 'project-duration';
+//     projectDuration.innerHTML = project.duration;
+//     projectHeader.appendChild(projectDuration);
 
-    li.appendChild(projectHeader);
+//     li.appendChild(projectHeader);
 
-    if (!!project.link) {
-      let projectLink = document.createElement('span');
-      projectLink.className = 'project-link';
+//     if (!!project.link) {
+//       let projectLink = document.createElement('span');
+//       projectLink.className = 'project-link';
 
-      let a = document.createElement('a');
-      a.href = project.link;
-      a.target = '_blank';
-      a.innerHTML = `${project.link}`;
+//       let a = document.createElement('a');
+//       a.href = project.link;
+//       a.target = '_blank';
+//       a.innerHTML = `${project.link}`;
 
-      projectLink.appendChild(a);
-      li.appendChild(projectLink);
-    }
+//       projectLink.appendChild(a);
+//       li.appendChild(projectLink);
+//     }
 
-    let projectDesc = document.createElement('div');
-    projectDesc.className = 'project-desc';
-    projectDesc.innerHTML = project.desc;
+//     let projectDesc = document.createElement('div');
+//     projectDesc.className = 'project-desc';
+//     projectDesc.innerHTML = project.desc;
 
-    li.appendChild(projectDesc);
+//     li.appendChild(projectDesc);
 
-    ul.appendChild(li);
-  });
-};
+//     ul.appendChild(li);
+//   });
+// };
 
 setSkills = skills => {
   let skillList = document.querySelector('#skillList');
@@ -224,41 +224,41 @@ setExperience = experiences => {
   });
 };
 
-setEvents = events => {
-  let footer = document.querySelector('.footer');
-  events.forEach(event => {
-    let eventTitle = setCatagoryHeader(event.title);
-    footer.appendChild(eventTitle);
+// setEvents = events => {
+//   let footer = document.querySelector('.footer');
+//   events.forEach(event => {
+//     let eventTitle = setCatagoryHeader(event.title);
+//     footer.appendChild(eventTitle);
 
-    let eventBody = document.createElement('div');
-    eventBody.className = 'cat-list-body';
+//     let eventBody = document.createElement('div');
+//     eventBody.className = 'cat-list-body';
 
-    let ul = document.createElement('ul');
+//     let ul = document.createElement('ul');
 
-    event.body.forEach(evt => {
-      let li = document.createElement('li');
+//     event.body.forEach(evt => {
+//       let li = document.createElement('li');
 
-      let achItem = document.createElement('div');
-      achItem.className = 'ach-item';
+//       let achItem = document.createElement('div');
+//       achItem.className = 'ach-item';
 
-      let achTitle = document.createElement('div');
-      achTitle.className = 'ach-title';
-      achTitle.innerText = evt.desc;
-      achItem.appendChild(achTitle);
+//       let achTitle = document.createElement('div');
+//       achTitle.className = 'ach-title';
+//       achTitle.innerText = evt.desc;
+//       achItem.appendChild(achTitle);
 
-      let achDuration = document.createElement('div');
-      achDuration.className = 'ach-duration';
-      achDuration.innerHTML = evt.date;
-      achItem.appendChild(achDuration);
+//       let achDuration = document.createElement('div');
+//       achDuration.className = 'ach-duration';
+//       achDuration.innerHTML = evt.date;
+//       achItem.appendChild(achDuration);
 
-      li.appendChild(achItem);
-      ul.appendChild(li);
-    });
+//       li.appendChild(achItem);
+//       ul.appendChild(li);
+//     });
 
-    eventBody.appendChild(ul);
-    footer.appendChild(eventBody);
-  });
-};
+//     eventBody.appendChild(ul);
+//     footer.appendChild(eventBody);
+//   });
+// };
 
 setCatagoryHeader = title => {
   let catHeader = document.createElement('div');
