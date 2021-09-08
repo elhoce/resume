@@ -20,27 +20,27 @@ setTitle = data => {
     data.about.contact.address; */
 };
 
-setLinks = links => {
-  let linksList = document.querySelector('#linksList');
-  links.forEach(link => {
-    let li = document.createElement('li');
-    let title = document.createElement('div');
-    title.className = 'link-title';
-    title.innerHTML = link.title;
-    li.appendChild(title);
+// setLinks = links => {
+//   let linksList = document.querySelector('#linksList');
+//   links.forEach(link => {
+//     let li = document.createElement('li');
+//     let title = document.createElement('div');
+//     title.className = 'link-title';
+//     title.innerHTML = link.title;
+//     li.appendChild(title);
 
-    let linkSrc = document.createElement('div');
-    linkSrc.className = 'link-src';
-    let a = document.createElement('a');
-    a.href = link.src;
-    a.target = '_blank';
-    a.innerHTML = link.src;
-    linkSrc.appendChild(a);
-    li.appendChild(linkSrc);
+//     let linkSrc = document.createElement('div');
+//     linkSrc.className = 'link-src';
+//     let a = document.createElement('a');
+//     a.href = link.src;
+//     a.target = '_blank';
+//     a.innerHTML = link.src;
+//     linkSrc.appendChild(a);
+//     li.appendChild(linkSrc);
 
-    linksList.appendChild(li);
-  });
-};
+//     linksList.appendChild(li);
+//   });
+// };
 
 setEducation = education => {
   let ul = document.querySelector('#educationList');
@@ -304,7 +304,7 @@ correctHTML = () => {
 (() => {
   // Call functions to load profile
   setTitle(profileData);
-  setLinks(profileData.links);
+//   setLinks(profileData.links);
   setExperience(profileData.experiences);
 //   setProjects(profileData.projects);
   setSkills(profileData.skills);
