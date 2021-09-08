@@ -126,61 +126,61 @@ const profileData = {
             ],
         },
     ],
-    events: [
-        {
-            title: 'certifications',
-            body: [
-                {
-                    desc: `<strong>IMAD (Introduction to Modern Application Development)</strong>, certified by <strong>NPTEL</strong>. (View Certificate: <a target='_blank' href='https://bit.ly/2D04Klj'>https://bit.ly/2D04Klj</a>)`,
-                    date: 'Feb - Mar 2018'
-                },
-                {
-                    desc: `<strong>Data Structure, in C</strong>, certified by <em> NPTEL </em>. Performance <strong> Elite(Topper)  </strong>. (View Certificate: <a target='_blank' href='https://bit.ly/2PNjaYN'> https://bit.ly/2PNjaYN</a>)`,
-                    date: 'Feb - Mar 2018'
-                },
-                {
-                    desc: `<strong>Legacy Front End</strong>, certified by <em> FreeCodeCamp </em>. (View Certificate: <a target='_blank' href='https://bit.ly/2OEZ5r9'> https://bit.ly/2OEZ5r9 </a>)`,
-                    date: 'Nov 2017 - Jan 2018'
-                }
-            ]
-        },
-        {
-            title: 'Workshops',
-            body: [
-                {
-                    desc: `<strong>First Step Robotics</strong>, Organized by Computer Society of India.`,
-                    date: 'Sep 2014'
-                },
+//     events: [
+//         {
+//             title: 'certifications',
+//             body: [
+//                 {
+//                     desc: `<strong>IMAD (Introduction to Modern Application Development)</strong>, certified by <strong>NPTEL</strong>. (View Certificate: <a target='_blank' href='https://bit.ly/2D04Klj'>https://bit.ly/2D04Klj</a>)`,
+//                     date: 'Feb - Mar 2018'
+//                 },
+//                 {
+//                     desc: `<strong>Data Structure, in C</strong>, certified by <em> NPTEL </em>. Performance <strong> Elite(Topper)  </strong>. (View Certificate: <a target='_blank' href='https://bit.ly/2PNjaYN'> https://bit.ly/2PNjaYN</a>)`,
+//                     date: 'Feb - Mar 2018'
+//                 },
+//                 {
+//                     desc: `<strong>Legacy Front End</strong>, certified by <em> FreeCodeCamp </em>. (View Certificate: <a target='_blank' href='https://bit.ly/2OEZ5r9'> https://bit.ly/2OEZ5r9 </a>)`,
+//                     date: 'Nov 2017 - Jan 2018'
+//                 }
+//             ]
+//         },
+//         {
+//             title: 'Workshops',
+//             body: [
+//                 {
+//                     desc: `<strong>First Step Robotics</strong>, Organized by Computer Society of India.`,
+//                     date: 'Sep 2014'
+//                 },
 
-                {
-                    desc: `<strong>Web Essentials</strong> with KnowWorkshops and CSI Haridwar chapter at FET, GKV`,
-                    date: 'Feb 2015'
-                },
-                {
-                    desc: `<strong>Cloud Computing</strong>, Organized by Computer Society of India.`,
-                    date: 'Mar 2016'
-                },
-                {
-                    desc: `<strong> IOT</strong> Organized by <strong> Computer Society of India,
- </strong> at FET, GKV`,
-                    date: 'Oct 2016'
-                },
+//                 {
+//                     desc: `<strong>Web Essentials</strong> with KnowWorkshops and CSI Haridwar chapter at FET, GKV`,
+//                     date: 'Feb 2015'
+//                 },
+//                 {
+//                     desc: `<strong>Cloud Computing</strong>, Organized by Computer Society of India.`,
+//                     date: 'Mar 2016'
+//                 },
+//                 {
+//                     desc: `<strong> IOT</strong> Organized by <strong> Computer Society of India,
+//  </strong> at FET, GKV`,
+//                     date: 'Oct 2016'
+//                 },
 
-            ]
-        },
-        {
-            title: 'Extracurricular Activities',
-            body: [
-                {
-                    desc: `Co-Organizer (Decoration Committee) in <strong>Jnanagni'15</strong> (Annual Techno-Cultural fest of FET, GKV)`,
-                    date: 'Mar 2015'
-                },
-                {
-                    desc:
-                        'Volunteer during the <strong>Indian Science Congress seminar</strong>, at FET, GKV',
-                    date: 'Mar 2017'
-                }
-            ]
-        }
-    ]
+//             ]
+//         },
+//         {
+//             title: 'Extracurricular Activities',
+//             body: [
+//                 {
+//                     desc: `Co-Organizer (Decoration Committee) in <strong>Jnanagni'15</strong> (Annual Techno-Cultural fest of FET, GKV)`,
+//                     date: 'Mar 2015'
+//                 },
+//                 {
+//                     desc:
+//                         'Volunteer during the <strong>Indian Science Congress seminar</strong>, at FET, GKV',
+//                     date: 'Mar 2017'
+//                 }
+//             ]
+//         }
+//     ]
 };
