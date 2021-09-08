@@ -12,7 +12,7 @@ const profileData = {
         }
     },
     links: [
-        {title: 'LinkedIn', src: 'https://www.linkedin.com/in/amit-yadav1/'},
+        {title: 'LinkedIn', src: 'https://www.linkedin.com/in/hocine-amrouche-2320b534/'},
     ],
     education: [
         {
@@ -57,22 +57,22 @@ const profileData = {
         {
             graph: 'false',
             category: 'Programming Languages',
-            topics: ['JavaScript', 'TypeScript' ]
+            topics: ['Java 11', 'JS/TypeScript','CSS3','C++']
         },
         {
             graph: 'false',
             category: 'Databases',
-            topics: ['MongoDB', 'PostgreSQL']
+            topics: ['MariaDB/MySQL', 'PostgreSQL']
         },
         {
             graph: 'false',
             category: 'Frameworks / Libraries',
-            topics: ['NodeJS', 'ReactJS', 'ExpressJs', 'Angular', 'Bootstrap']
+            topics: ['Spring', 'StringBoot', 'Angular', 'Vaadin','ChartJS']
         },
         {
             graph: 'false',
             category: 'Others',
-            topics: ['HTML', 'CSS', 'AWS SQS(Simple Queue Service)', 'Redis', 'Elasticsearch']
+            topics: ['Linux','Jenkins','Git','GitHub','ArchLinux','Debian','SQL','Admin/Install PC/serveur', 'Bash scripting', 'Admin DNS', 'IntelliJ']
         }
     ],
     projects: [
