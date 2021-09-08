@@ -1,44 +1,57 @@
 const profileData = {
     title: 'Résumé',
-    name: 'Amit Yadav',
-    sub_title: 'Full-Stack Developer',
+    name: 'Hocine AMROUCHE',
+    sub_title: 'Lead Full-Stack Developer',
     logoURL: 'assets/images/dp.jpg',
     about: {
-        intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle managements.`,
+        intro: ``,
         contact: {
-            email: 'amitykaran74@gmail.com',
-            phone: '+91-8077335182',
-            address: 'Gurugram, Haryana 560035'
+            email: 'elhoce@gmail.com',
+            phone: '06 79 82 82 30',
+            address: 'Marseille'
         }
     },
     links: [
-        // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
-        {title: 'Github', src: 'https://github.com/amitykaran'},
         {title: 'LinkedIn', src: 'https://www.linkedin.com/in/amit-yadav1/'},
-        // {title: 'Twitter', src: 'https://twitter.com/amitykaran74'},
-        // {title: 'HackerEarth', src: 'https://www.hackerearth.com/@amitykaran74'}
     ],
     education: [
         {
-            alma: 'FET, GKV, Haridwar',
-            duration: '2014 - 2018',
-            std: 'Bachelor of Technology (Computer Science & Engineering)',
-            score: '73.00%'
+            alma: 'Université d\'Avignon, Avignon',
+            duration: '2006',
+            std: 'Master PRO Info. Spé. : Traitement automatique de l\'information multimédia',
+            score: '100.00%'
         },
         {
-            alma: 'Agra Public School, Agra',
-            duration: '2011 - 2013',
-            std: 'Class XI - XII (PCM)',
-            score: '82.20%'
+            alma: 'Université d\'Avignon, Avignon',
+            duration: '2004',
+            std: 'Licence Génie Mathématiques & Informatique',
+            score: '100.00%'
         },
         {
-            alma: 'Jawahar Navodaya Vidyalaya, Firozabad',
-            duration: '2009 - 2011',
-            std: 'Class IX - X (PCM)',
-            score: '9.4 CGPA'
+            alma: 'Université d\'Avignon, Avignon',
+            duration: '2003',
+            std: 'DEUG Génie Mathématiques & Informatique',
+            score: '100.00%'
+        },
+        {
+            alma: 'Université St Charles, Marseille',
+            duration: '2002',
+            std: 'DEUG Mathématiques & Informatique appliqués aux sciences',
+            score: '100.00%'
+        },
+        {
+            alma: 'Lycée des remparts, Marseille',
+            duration: '2000',
+            std: 'BTS Mécanique & Automatique industrielle (1ère année)',
+            score: '100.00%'
+        },
+        {
+            alma: 'Lycée des remparts, Marseille',
+            duration: '1999',
+            std: 'Bac STI Génie Mécanique Industrielle',
+            score: '100.00%'
         }
+        
     ],
     skills: [
         {
@@ -159,22 +172,7 @@ const profileData = {
                     ]
                 }
             ]
-        },
-//         {
-//             organization: 'RWX Technologies',
-//             roles: [
-//                 {
-//                     title: 'Software Developer Intern',
-//                     desc: ``,
-//                     date: 'May 2017 - July 2017',
-//                     details: [
-//                         `Contribute to a project <strong>Smile Detection</strong> using technologies like <strong>Image-Recognition</strong> and <strong>Machine Learning</strong> develop in
-// <strong>MATLAB</strong>. Use Machine Learning algorithm like <strong>Random Forest</strong>, <strong>KNN(K-Nearest Neighbour)</strong>, etc.`,
-//                         `Create data set of <strong>2500 Images</strong> and <strong>test</strong> on nearly <strong>300 Images</strong>.`,
-//                     ]
-//                 }
-//             ]
-//         }
+        }
     ],
     events: [
         {
