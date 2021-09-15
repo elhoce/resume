@@ -82,7 +82,7 @@ const profileData = {
     ],
     experiences: [
         {
-            organization: 'ADMS',
+            organization: 'ADMS, Avignon, Vaucluse',
             roles: [
                 {
                     title: `Lead Developer`,
@@ -100,7 +100,7 @@ const profileData = {
             ]
         },
         {
-            organization: 'ADMS',
+            organization: 'Antibia, Monteux, Vaucluse',
             roles: [
                 {
                     title: `Ingénieur développeur Java - C++`,
