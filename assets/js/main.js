@@ -16,8 +16,7 @@ setTitle = data => {
     .querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  /* document.querySelector('#contactAddress').innerHTML =
-    data.about.contact.address; */
+  document.querySelector('#contactAddress').innerHTML = data.about.contact.address;
 };
 
 // setLinks = links => {
