@@ -416,7 +416,7 @@ strong {
   }
 }
 
-body {
+/* body {
   background: rgb(204,204,204); 
 }
 page {
@@ -455,4 +455,4 @@ page[size="A5"][layout="landscape"] {
     margin: 0;
     box-shadow: 0;
   }
-}
+} */
