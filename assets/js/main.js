@@ -4,9 +4,9 @@ setTitle = data => {
   // Set page title
   document.title = `${data.title} | ${data.name}`;
 
-  document.querySelector('#profileLogo').style[
-    'background-image'
-  ] = `url(${data.logoURL})`;
+//   document.querySelector('#profileLogo').style[
+//     'background-image'
+//   ] = `url(${data.logoURL})`;
 
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
