@@ -72,7 +72,7 @@ const profileData = {
         {
             graph: 'false',
             category: 'Env',
-            topics: ['Linux','Jenkins','Git','GitHub','ArchLinux','Debian','SQL', 'IntelliJ']
+            topics: ['Docker','Linux','Jenkins','Git','GitHub','ArchLinux','Debian','SQL', 'IntelliJ']
         },
         {
             graph: 'false',
@@ -118,7 +118,7 @@ const profileData = {
                         `Mise en production`,
                         `Montée en compétence des collaborateurs`,
                         `<strong>Env. Tech.</strong>`,
-                        `&nbspJava 11, Vaadin, Spring Security/Web/Boot, Ebean, Postgres, Debian, Angular, CSS3, Web components, IntelliJ`,
+                        `&nbspJava 11, Docker, Vaadin, Spring Security/Web/Boot, Ebean, Postgres, Debian, Angular, CSS3, Web components, IntelliJ`,
                     ]
                 },
                 {
