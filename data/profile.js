@@ -80,30 +80,6 @@ const profileData = {
             topics: ['Admin/Install PC/serveur', 'Bash scripting', 'Admin DNS/nom de domaine']
         }
     ],
-//     projects: [
-//        //  {
-//        //      title: 'Personal Doctor (Android App)',
-//        //      duration: 'Nov - Dec 2017',
-//        //      link: 'https://github.com/amitykaran/android-app',
-//        //      desc: `It is a small application have features like <strong>Medicine reminder</strong>
-//        // (remind you to take your medicine), find people of <strong>same blood group</strong> as yours and panic
-//        //  button for <strong>emergency call</strong>.`
-//        //  },
-//         {
-//             title: 'Down Syndrome Detection, (Using Machine Learning)',
-//             duration: 'Mar - April 2018',
-//             link: '',
-//             desc: `We can recognize a person suffering from <strong>Down Syndrome</strong> disorder by facial photograph.
-//        Developed in <strong>MATLAB</strong> using technologies like <strong>Image Recognition</strong>, <strong>Machine Learning</strong> and We use the different classifiers like SVM, Random Forest and KNN to train the machine.`
-//         },
-//         {
-//             title: `Front-End Project`,
-//             duration: 'Jan - Mar 2018',
-//             link: 'https://codepen.io/techcoderamit/full/wyBVdO',
-//             desc: `In the process of completion of <strong>front-end certification</strong> on <strong>Free Code Camp</strong>, I developed many small projects like <strong>Tic-tac-toe game</strong>, <strong>Sudoku solver</strong>, <strong>Weather finder App</strong>, <strong>JavaScript Calculator</strong>, <strong>Pomodoro Clock</strong>, <strong>Simon Game</strong>, etc.. 
-// `
-//         }
-//     ],
     experiences: [
         {
             organization: 'ADMS',
@@ -120,7 +96,12 @@ const profileData = {
                         `<strong>Env. Tech.</strong>`,
                         `&nbspJava 11, Docker, Vaadin, Spring Security/Web/Boot, Ebean, Postgres, Debian, Angular, CSS3, Web components, IntelliJ`,
                     ]
-                },
+                }
+            ]
+        },
+        {
+            organization: 'ADMS',
+            roles: [
                 {
                     title: `Ingénieur développeur Java - C++`,
                     desc: ``,
