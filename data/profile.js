@@ -67,12 +67,17 @@ const profileData = {
         {
             graph: 'false',
             category: 'Frameworks / Libraries',
-            topics: ['Spring', 'SpringBoot', 'Angular', 'Vaadin','ChartJS','Lombok']
+            topics: ['Spring', 'SpringBoot', 'Angular', 'Vaadin','ChartJS','Lombok','Ebean']
         },
         {
-            graph: 'true',
+            graph: 'false',
             category: 'Env',
-            topics: ['Linux','Jenkins','Git','GitHub','ArchLinux','Debian','SQL','Admin/Install PC/serveur', 'Bash scripting', 'Admin DNS', 'IntelliJ']
+            topics: ['Linux','Jenkins','Git','GitHub','ArchLinux','Debian','SQL', 'IntelliJ']
+        },
+        {
+            graph: 'false',
+            category: 'Autres',
+            topics: ['Admin/Install PC/serveur', 'Bash scripting', 'Admin DNS/nom de domaine']
         }
     ],
 //     projects: [
@@ -108,7 +113,12 @@ const profileData = {
                     desc: ``,
                     date: 'Depuis Dec 2017',
                     details: [
-                        `Managing a team of <strong>6 peoples</strong> while working on <strong>2 different projects</strong>, In which one project is a <strong>customer-facing website</strong> and another is an <strong>internal CRM system</strong>. Our current focus is to implement new features with a futuristic approach. It will take our tech systems to new heights. `,
+                        `Architecte, développement & maintenance du logiciel CAMO/MRO (suivi/maintenance des aeronefs)`,
+                        `Adminstration/Installation des serveurs physique & dédiés`,
+                        `Mise en production`,
+                        `Montée en compétence des collaborateurs`,
+                        `<strong>Env. Tech.</strong>`,
+                        `&nbspJava 11, Vaadin, Spring Security/Web/Boot, Ebean, Postgres, Debian, Angular, CSS3, Web components, IntelliJ`,
                     ]
                 },
                 {
