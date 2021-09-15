@@ -9,7 +9,7 @@ setTitle = data => {
   ] = `url(${data.logoURL})`;
 
   document.querySelector('#profileName').innerHTML = data.name;
-  // document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
+  document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
   // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
@@ -69,10 +69,10 @@ setEducation = education => {
     eduStd.innerHTML = edu.std;
     eduClassData.appendChild(eduStd);
 
-    let eduScore = document.createElement('span');
-    eduScore.className = 'edu-score';
-    eduScore.innerHTML = edu.score;
-    eduClassData.appendChild(eduScore);
+//     let eduScore = document.createElement('span');
+//     eduScore.className = 'edu-score';
+//     eduScore.innerHTML = edu.score;
+//     eduClassData.appendChild(eduScore);
 
     li.appendChild(eduClassData);
 
